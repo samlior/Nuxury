@@ -1,5 +1,3 @@
-const settings = require('../settings')
-
 module.exports = async function ({ deployments, getNamedAccounts }) {
   const { deploy } = deployments
   const { deployer } = await getNamedAccounts()
